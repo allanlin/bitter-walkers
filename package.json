@@ -1,11 +1,10 @@
 {
-  "name": "example-create-react-app-express",
+  "name": "bitter-walkers",
   "version": "1.0.0",
-  "description": "Example on using create-react-app with a Node Express Backend",
+  "description": "This is a fun app which potentially might spawn into more.",
   "author": {
-    "name": "Esau Silva",
-    "email": "esausilva85@gmail.com",
-    "url": "https://esausilva.com"
+    "name": "Allan Lin",
+    "email": "allanlin@gmail.com"
   },
   "license": "MIT",
   "scripts": {
@@ -17,17 +16,11 @@
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "pg": "^7.4.3"
   },
   "devDependencies": {
     "concurrently": "^3.6.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/esausilva/example-create-react-app-express.git"
-  },
-  "bugs": {
-    "url": "https://github.com/esausilva/example-create-react-app-express/issues"
   },
   "keywords": [
     "node",
